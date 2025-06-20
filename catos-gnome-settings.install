@@ -1,0 +1,12 @@
+post_install() {
+    # 检查文件是否存在
+    if [ ! -d "/usr/share/backgrounds/gnome" ]; then
+        mkdir -p /usr/share/backgrounds/gnome/
+    fi
+    ln -sf /usr/share/backgrounds/catos.png /usr/share/backgrounds/gnome/catos.png
+    ln -sf /usr/share/backgrounds/catos_dark.png /usr/share/backgrounds/gnome/catos_dark.png
+}
+
+post_upgrade() {
+    post_install
+}
