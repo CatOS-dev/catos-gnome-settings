@@ -1,8 +1,9 @@
 pkgname=catos-gnome-settings
-pkgver=1.0
+pkgver=2.0
 pkgrel=1
 pkgdesc="CatOS Gnome Settings"
 arch=("any")
+depends=('catos-branding')
 url="https://www.catos.info/"
 license=("GPL")
 install="${pkgname}.install"
