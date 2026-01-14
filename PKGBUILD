@@ -1,6 +1,6 @@
 pkgname=catos-gnome-settings
 pkgver=2.0
-pkgrel=2
+pkgrel=3
 pkgdesc="CatOS Gnome Settings"
 arch=("any")
 depends=('catos-branding')
