@@ -3,3 +3,6 @@
 pkg/**
 src/**
 catos-gnome-settings/**
+
+__pycache__/
+*.py[cod]
