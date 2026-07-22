@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>CatOS Default Background</name>
-    <filename>/usr/share/backgrounds/gnome/catos.png</filename>
-    <filename-dark>/usr/share/backgrounds/gnome/catos_dark.png</filename-dark>
+    <filename>/usr/share/backgrounds/catos/catos-light.png</filename>
+    <filename-dark>/usr/share/backgrounds/catos/catos-dark.png</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>

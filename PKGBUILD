@@ -6,7 +6,6 @@ arch=("any")
 depends=('catos-branding')
 url="https://www.catos.info/"
 license=("GPL")
-install="${pkgname}.install"
 source=("$pkgname::git+file://$PWD")
 sha256sums=("SKIP")
 
